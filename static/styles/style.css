@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    
+    box-sizing: border-box;
 }
 
 body{
@@ -25,8 +25,6 @@ body{
 .navbar > .logo-container > a > img{
     width: 200px;
     height: 130px;
-    padding: 0;
-    margin: 0;
     cursor: pointer;
 }
 
@@ -69,8 +67,6 @@ body{
 /*--- INFORMACION BASICA ---*/
 .basic-info-container{
     width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
     margin-left: 150px;
 }
@@ -79,7 +75,6 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 60%;
-    margin: 0;
     margin-top: 70px;
     margin-left: 50px;
 }
@@ -94,15 +89,12 @@ body{
     font-size: 14px;
     width: 340px;
     line-height: 1.5;
-    margin: 0;
 }
 
 .basic-info-container > img{
     width: 500px;
     height: 390px;
-    margin: 0;
     margin-top: -50px;
-    padding: 0;
     padding-left: 100px;
 }
 
@@ -114,7 +106,6 @@ body{
     padding: 50px;
     border: none;
     border-radius: 30px;
-    margin: 0;
     margin-left: 76px;
 }
 
@@ -136,7 +127,6 @@ body{
 
 .last-info-container > .t2-container > h2{
     font-size: 20px;
-    margin: 0;
     margin-top: 40px;
 }
 
@@ -158,7 +148,6 @@ body{
 /*FOOTER*/
 footer{
     text-align: center;
-    margin: 0;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -168,6 +157,5 @@ footer > div{
     width: 1000px;
     border-top: 1px solid #CCCFD6;
     padding: 20px;
-    margin: 0;
     margin-top: 30px;
 }
