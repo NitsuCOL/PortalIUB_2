@@ -22,11 +22,12 @@ body{
     left: 0;
 }
 
-.navbar > .logo-container > img{
+.navbar > .logo-container > a > img{
     width: 200px;
     height: 130px;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 .navbar > .logo-container{
@@ -57,6 +58,10 @@ body{
 .navbar > .btn-container{
     margin-left: 720px;
     margin-top: 32px;
+}
+
+.btn-container button{
+    cursor: pointer;
 }
 
 /*CONTENIDO PRINCIPAL*/
