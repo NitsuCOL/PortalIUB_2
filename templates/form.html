@@ -10,42 +10,55 @@
     <div class="container">
         <div class="container-form">
             <form class="sign-in">
-                <h2>Iniciar sesion</h2>
-                <label for="">Correo institucional</label>
+                <img src="/img/logo_vertical-removebg-preview.png" alt="">
+                <label for="" id="mail">Correo institucional</label>
                 <div class="container-input">
                     <ion-icon name="mail-outline"></ion-icon>
                     <input type="text" placeholder="Escribe aqui">
                 </div>
-                <label for="">Contraseña</label>
+                <label for="" id="pass">Contraseña</label>
                 <div class="container-input">
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type="password" placeholder="********">
                 </div>
-                <a href="">¿Olvidaste tu contraseña?</a>
-                <button>Iniciar sesion</button>
+                <a href="" id="recuperar">¿Olvidaste tu contraseña?</a>
+                <button class="button">Iniciar sesion</button>
             </form>
         </div>
         <!--  REGISTRO  -->
         <div class="container-form">
             <form class="sign-up">
-                <h2>Registrarse</h2>
-                <label for="">Nombre y apellido</label>
+                <img src="/img/logo_vertical-removebg-preview.png" alt="">
+                <label for="" id="nya">Nombre y apellido</label>
                 <div class="container-input">
                     <ion-icon name="person-outline"></ion-icon>
                     <input type="text" placeholder="Juan Perez">
                 </div>
-                <label for="">Correro institucional</label>
+                <label for="" id="mail_r">Correro institucional</label>
                 <div class="container-input">
                     <ion-icon name="mail-outline"></ion-icon>
                     <input type="text" placeholder="example@unibarranquilla.edu.co">
                 </div>
-                <label for="">Contraseña</label>
+                <label for="" id="pass_r">Contraseña</label>
                 <div class="container-input">
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type="password" placeholder="********">
                 </div>
-                <button>Registrarme</button>
+                <button class="button">Registrarme</button>
             </form>
+        </div>
+
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Bienvenido!</h3>
+                <p>Para acceder al chatbot de preguntas frecuentes, ingresa tu usuario y contraseña en los campos correspondientes.</p>
+                <button class="button" id="btn-sign-up">Registrarse</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡Hola!</h3>
+                <p>Registrate con tus datos para usar el chatbot.</p>
+                <button class="button" id="btn-sign-in">Iniciar sesión</button>
+            </div>
         </div>
     </div>
 
